@@ -142,7 +142,7 @@ echo '</div>';
 </head>
 <body>
     <div class="form-container">
-        <form method="post" action="./database/commentadd.php">
+        <form method="post" action="./commentadd.php">
             <p>Enter comment</p>
             <input type="text" name="comment" />
             <input type="hidden" name="commentmembername" value="<?php echo $memberid; ?>" />
