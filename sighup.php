@@ -39,7 +39,7 @@ session_start();
         <div style=
         "border: 1px solid gray;
         width: 440px;">
-        <form method="post" action="./database/memberinfoadd.php" style="margin-left:20px;" onsubmit="return checkpass();">
+        <form method="post" action="./memberinfoadd.php" style="margin-left:20px;" onsubmit="return checkpass();">
         <p>Enter username:
             <input type="text" name="user" />
         </p>

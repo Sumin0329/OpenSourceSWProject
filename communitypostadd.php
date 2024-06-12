@@ -20,6 +20,6 @@ $query = 'INSERT INTO post
 
 mysqli_query($db, $query) or die(mysqli_error($db));
 echo '<script type="text/javascript">';
-echo 'window.location = "../communitysite.php?id=' . $id . '";';
+echo 'window.location = "./communitysite.php?id=' . $id . '";';
 echo '</script>';
 ?>

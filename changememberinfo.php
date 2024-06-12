@@ -28,7 +28,7 @@ mysqli_query($db, $query) or die(mysqli_error($db));
 
 echo '<script type="text/javascript">';
 echo 'alert("password change successfully!");';
-echo 'window.location = "../mainpage.php";';
+echo 'window.location = "./mainpage.php";';
 echo '</script>';
 
 ?>
