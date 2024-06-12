@@ -113,7 +113,7 @@ mysqli_select_db($db, 'memberinfodb') or die(mysqli_error($db));
     ?>
     <h2>User Info <?php echo $id ?></h2>
     <button id="changepass" onclick="changepass()">Change Password</button>
-    <form id="changepassword" method="post" action="./database/changememberinfo.php" onsubmit="return checkpass();">
+    <form id="changepassword" method="post" action="./changememberinfo.php" onsubmit="return checkpass();">
         <input type="hidden" name="id" value="<?php echo $id ?>" />
         <div>
             <label for="new-password">New Password:</label>
