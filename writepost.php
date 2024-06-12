@@ -66,7 +66,7 @@ $id = isset($_GET['id']) ? $_GET['id'] : '';
 <body>
     <h1>Write post</h1>
     <div class="form-container">
-        <form method="post" action="./database/communitypostadd.php">
+        <form method="post" action="./communitypostadd.php">
             <p>Enter Title</p>
             <input type="text" name="posttitle" />
             <p>Enter contents</p>
